@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function HorrorStory() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     // Create and play horror ambience when component mounts
     const ambienceAudio = new Audio('/audio/horror-ambience.mp3');
@@ -116,6 +119,29 @@ function HorrorStory() {
           Now I can't get rid of it. Each time I try to throw it away, it returns. 
           Each night the images become more disturbing, more real...
         </p>
+
+        <button 
+          onClick={() => navigate('/ipad-history')}
+          style={{
+            display: 'block',
+            margin: '2rem auto',
+            padding: '1rem 2rem',
+            backgroundColor: '#000',
+            border: '2px solid #bb0000',
+            color: '#bb0000',
+            fontFamily: 'Creepster, cursive',
+            fontSize: '1.5em',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            animation: 'pulse 2s infinite',
+            boxShadow: '0 0 15px rgba(187, 0, 0, 0.3)',
+            ':hover': {
+              transform: 'scale(1.05)',
+              boxShadow: '0 0 25px rgba(187, 0, 0, 0.5)',
+            }
+          }}>
+          Click to Know More... If You Dare
+        </button>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HorrorStory from './components/HorrorStory';
 import './App.css';
+import IPADHistory from './components/IPADHistory';
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
           </div>
         } />
         <Route path="/horror" element={<HorrorStory />} />
+        <Route path="/ipad-history" element={<IPADHistory />} />
       </Routes>
     </Router>
   );

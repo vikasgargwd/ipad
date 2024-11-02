@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ipad/ipad/static/css/main.447ddda3.css",
+    "main.js": "/ipad/ipad/static/js/main.c6cb496d.js",
+    "static/js/453.f3b8d34b.chunk.js": "/ipad/ipad/static/js/453.f3b8d34b.chunk.js",
+    "index.html": "/ipad/ipad/index.html",
+    "main.447ddda3.css.map": "/ipad/ipad/static/css/main.447ddda3.css.map",
+    "main.c6cb496d.js.map": "/ipad/ipad/static/js/main.c6cb496d.js.map",
+    "453.f3b8d34b.chunk.js.map": "/ipad/ipad/static/js/453.f3b8d34b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.447ddda3.css",
+    "static/js/main.c6cb496d.js"
+  ]
+}
